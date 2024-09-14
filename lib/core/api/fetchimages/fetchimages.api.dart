@@ -12,7 +12,7 @@ class FetchimagesApi {
   getImages(int page, context, {search}) async {
     Map<String, dynamic> queryParams = {
       'key': '44978634-21f63b4c475f2fbb3306cf779',
-      'per_page': 20,
+      'per_page': 24,
       'page': page,
       'q': search
     };
